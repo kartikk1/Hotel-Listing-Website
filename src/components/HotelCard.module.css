@@ -1,0 +1,173 @@
+.card{
+    width: 400px;
+    height:507px;
+    margin: 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 1px #cbcbcb;
+    background-color: white;
+}
+
+.card img{
+    width: 390px;
+    margin: auto;
+    height: 250px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+/* / */
+.imageContainer {
+    position: relative;
+    overflow: hidden;
+}
+ 
+.caro{
+    width: 390px;
+    margin: auto;
+    height: 260px;
+    border-radius: 20px;
+}
+  
+.tag {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+    background-color: white;
+    color: #373AE3;
+
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    line-height: 20px;
+}
+
+.heart{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 20px;
+    background-color: white;
+    color: #373AE3;
+    padding: 12px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.heart:hover{
+    background-color: #373AE3;
+    color:white;
+}
+
+.popularTagContainer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #373AE3;
+    color: #fff; 
+
+    padding: 10px 30px;
+
+    border-radius: 5px;
+}
+
+.hotelModel{
+    width: 87%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.hotelModel p{
+    margin: 10px 0px;
+    margin-top: 20px;
+    color: #2D3A57;
+    font-weight: 500;
+}
+
+.hotelDisc{
+    display: flex;
+    width:90%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: start;
+    justify-content: space-evenly;
+}
+
+.hotelDisc div{
+    padding-right: 25px;
+    padding-left: 10px;
+    border-right: 1px dashed rgb(128,128,128,0.3);
+}
+
+.hotelDisc div:last-child{
+    border: none;
+}
+
+.locationIcon{
+    color: #A48851;
+}
+
+.line{
+    width: 87%;
+    margin: auto;
+    /* height: 0px; */
+    border-bottom: 1px dashed rgb(128,128,128,0.3);
+    margin-top: 12px;
+}
+
+.lastSection{
+    display: flex;
+    width: 88%;
+    margin: auto;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.lastSectionFirst{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.price{
+    font-size: 23px;
+    margin-right: 5px;
+    font-weight: bold;
+    align-self: flex-start;
+    color: #373AE3;
+}
+
+.lastSectionFirst :nth-child(2){
+    align-self: center
+}
+
+.lastSection button{
+    background-color: white;
+    padding: 10px 18px;
+    border: 1px solid #373AE3;
+    color: #373AE3;
+    font-weight: 800;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 18px;
+    border: 1px solid #373AE3;
+    color: #373AE3;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a{
+    color:#373AE3;
+}
+a:hover{
+    background-color: #373AE3;
+    color:white;
+}

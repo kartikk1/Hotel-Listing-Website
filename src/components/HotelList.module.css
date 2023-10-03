@@ -1,0 +1,8 @@
+.hotellist{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+    background-color: transparent;
+}

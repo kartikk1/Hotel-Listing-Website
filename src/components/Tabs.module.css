@@ -1,0 +1,51 @@
+.tabs{
+    width: 67%;
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+}
+
+.inactive{
+    background-color: #ECECFB;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    padding: 15px 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.active{
+    background-color: #373AE3;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    padding: 15px 30px;
+    margin-right: 10px;
+    cursor: pointer;
+    color:white;
+}
+
+.showAll{
+    position: relative;
+    left: 670px;
+    background-color: transparent;
+    border: 1px solid  #373AE3;
+    color: #373AE3;
+    border-radius: 25px;
+    cursor: pointer;
+
+    height: 40px;
+    width: 130px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.showAll p{
+    margin-right: 10px;
+}
+
+.showAll:hover{
+    background-color: #373AE3;
+    color:white;
+}
