@@ -1,6 +1,8 @@
 # Hotel-Listing-Website
 This is a simple hotel listing website built using React.js for desktop-only screens. It provides a user-friendly interface for users to browse and explore various properties in different cities. 
 
+Live Link: https://hotel-listing-site.netlify.app/
+
 ## Features
 ### City Tabs
 - The website features tabs for different locations, displaying four locations at a time.
